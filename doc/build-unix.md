@@ -61,9 +61,13 @@ Build requirements:
 
 	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev
 
-For Ubuntu 12.04 and later or Debian 7 and later libboost-all-dev has to be installed:
+For Ubuntu 12.04 to 18 or Debian 7 and later(?) libboost-all-dev has to be installed:
 
 	sudo apt-get install libboost-all-dev
+
+For Ubuntu 20.04 and later:  
+install `boost 1.67`  
+install `libssl1.0-dev_1.0.2n-1ubuntu5.7_amd64.deb` by downloading it from old ubuntu repo then use `gdebi`  
 
  db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
  You can add the repository using the following command:
